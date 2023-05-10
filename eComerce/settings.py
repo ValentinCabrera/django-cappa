@@ -78,17 +78,16 @@ WSGI_APPLICATION = "eComerce.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-import dj_database_url
 
 DATABASES = {
-    "default": dj_database_url.parse(
-        "postgres://vale:w5ManPJZA7MoaT93cObKVLdzNOE6E5xR@dpg-ch853jtgk4q7lmo1sfvg-a.oregon-postgres.render.com/capparelli"
-    ),
-    #'ENGINE': 'django.db.backends.postgresql',
-    #'NAME': 'e-comerce',
-    #'USER': 'valentincabrera',
-    #'HOST': 'localhost',
-    #'PORT': '5432',
+    'default': {
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': 'capparelli',
+    'USER': 'vale',
+    'HOST': 'dpg-ch853jtgk4q7lmo1sfvg-a.oregon-postgres.render.com',
+    'PASSWORD': 'w5ManPJZA7MoaT93cObKVLdzNOE6E5xR',
+    'PORT': '5432',
+    }
 }
 
 
