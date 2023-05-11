@@ -25,13 +25,14 @@ SECRET_KEY = "django-insecure-9_2gxd$g(9qk8_^sh2xx8(d04g6%n6xn4*f=qxk&slg$n-8633
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['*']
 CORS_ORIGIN_ALLOW_ALL = True
 
-CORS_ORIGIN_WHITELIST = [    "https://django-lhka.onrender.com",]
 
-CSRF_TRUSTED_ORIGINS = ['"https://django-lhka.onrender.com"']
-
+CSRF_USE_SESSIONS = True
+CSRF_TRUSTED_ORIGINS = [
+    'https://django-lhka.onrender.com',
+]
 
 
 # Application definition
