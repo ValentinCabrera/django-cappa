@@ -79,17 +79,27 @@ WSGI_APPLICATION = "eComerce.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+"""DATABASES = {
+    "default": {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'e-comerce',
+        'USER': 'valentincabrera',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}"""
+
+
 DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'capparelli',
+    'NAME': 'cappa',
     'USER': 'vale',
-    'HOST': 'dpg-ch853jtgk4q7lmo1sfvg-a.oregon-postgres.render.com',
-    'PASSWORD': 'w5ManPJZA7MoaT93cObKVLdzNOE6E5xR',
+    'HOST': 'dpg-chehncgrddl0s9agccq0-a.oregon-postgres.render.com',
+    'PASSWORD': 'hN3qp3ObZqor7clCefx3NxvecYPnvUvx',
     'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
