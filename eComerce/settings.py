@@ -30,7 +30,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = [    "https://django-lhka.onrender.com",]
 
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['"https://django-lhka.onrender.com"']
 
 
 
