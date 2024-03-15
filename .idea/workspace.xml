@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01a0dc8-afed-4c15-9cd1-20ffa86ef4df" name="Changes" comment="" />
+    <list default="true" id="d01a0dc8-afed-4c15-9cd1-20ffa86ef4df" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back" beforeDir="false" afterPath="$PROJECT_DIR$/back" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/back/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/back/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/back/utils/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/back/utils/mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/menu/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/menu/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/menu/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/menu/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/migrations/0002_alter_orderstatechange_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/migrations/0003_discount_orderdiscount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/migrations/0004_alter_orderdiscount_unique_together.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/migrations/0005_alter_orderdiscount_unique_together_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/migrations/0006_discountcodepercentage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/migrations/0007_orderdiscount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/order/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/views/current_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/order/views/current_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/views/kitchen.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/order/views/kitchen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/order/views/lounge.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/order/views/lounge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/user/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/migrations/0002_user_date_joined_user_groups_user_is_active_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/migrations/0003_remove_client_user_ptr_delete_admin_delete_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/migrations/0004_rename_is_active_user_state_alter_mailcheck_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/migrations/0005_remove_user_is_staff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/migrations/0006_user_is_staff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/user/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/urls/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/user/urls/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/user/views/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/user/views/auth.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,11 +53,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/back" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2Xp7XAaKLGOEVEBvplJy5dZj205" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,6 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/valentincabrera/Desktop/Proyectos/Trabajos/Capparelli/eComerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,6 +84,7 @@
   <component name="RunManager">
     <configuration name="eComerce" type="Python.DjangoServer" factoryName="Django server">
       <module name="eComerce" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -72,6 +109,13 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7a29c1521ef0-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.298" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,6 +125,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699314204179</updated>
       <workItem from="1699314211819" duration="16726000" />
+      <workItem from="1701226680377" duration="39000" />
+      <workItem from="1703714218928" duration="315000" />
     </task>
     <servers />
   </component>
